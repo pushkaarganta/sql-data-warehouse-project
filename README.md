@@ -1,10 +1,11 @@
-Data Warehouse and Analytics Project
+### Data Warehouse and Analytics Project
+----------------------------------------------------
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
 ---------
-🚀 Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
+### 🚀 Project Requirements
+## Building the Data Warehouse (Data Engineering)
+# Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 ### Specifications
@@ -15,7 +16,7 @@ Integration: Combine both sources into a single, user-friendly data model design
 4. Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ### BI: Analytics & Reporting (Data Analysis)
-### Objective
+## Objective
 Develop SQL-based analytics to deliver detailed insights into:
 
 1. Customer Behavior
@@ -26,11 +27,10 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 For more details, refer to docs/requirements.md.
 
-##🛡️ License
+### 🛡️ License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
-🌟 About Me
+### 🌟 About Me
 Hi there! I'm Pushkar Ganta. I’m an IT professional.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
-
 LinkedIn 

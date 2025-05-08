@@ -95,7 +95,7 @@ Develop SQL queries and reports to uncover:
 ---
 
 ## 📂 Repository Structure
-'''
+
 data-warehouse-project/
 │
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
@@ -119,7 +119,7 @@ data-warehouse-project/
 ├── LICENSE # License information for the repository
 ├── .gitignore # Git ignore rules
 └── requirements.txt # Project dependencies
-'''
+
 ## ☕ Stay Connected
 
 > Want to connect, collaborate, or follow my work?

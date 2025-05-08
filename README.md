@@ -1,38 +1,137 @@
-# Data Warehouse and Analytics Project
+# 📊 Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive end-to-end data warehousing and analytics solution. It follows modern architecture and best practices, ideal for showcasing your skills in data engineering and analytics.
+
 ---
+
+## 🏗️ Data Architecture
+
+This project uses **Medallion Architecture** with **Bronze, Silver, and Gold layers**:
+![data_architecture](https://github.com/user-attachments/assets/1bd951f3-29d7-44dc-a6cc-cfa07cab5e95)
+
+- **Bronze Layer**  
+  Stores raw data ingested from CRM and ERP systems (CSV files). Data is loaded into SQL Server with no transformation.
+
+- **Silver Layer**  
+  Performs data cleansing, standardization, normalization, and enrichment to prepare clean data.
+
+- **Gold Layer**  
+  Contains business-ready data structured in star schema, used for reporting, analysis, and machine learning.
+
+---
+
+## 📖 Project Overview
+
+This project involves:
+
+- **Data Architecture**  
+  Design and implementation of a modern warehouse using Medallion Architecture.
+
+- **ETL Pipelines**  
+  Extract, Transform, and Load processes built using SQL Server stored procedures.
+
+- **Data Modeling**  
+  Star schema with fact and dimension tables optimized for analytical queries.
+
+- **Analytics & Reporting**  
+  SQL-based reports and dashboards for insight generation.
+
+---
+
+## 🎯 Skills Demonstrated
+
+This project is ideal for professionals and students looking to build a strong data portfolio in:
+
+- SQL Development  
+- Data Engineering  
+- ETL Pipeline Development  
+- Data Modeling  
+- Data Analytics  
+- Data Architecture
+
+---
+
+## 🛠️ Tools & Resources
+
+Everything used in this project is **free** and beginner-friendly:
+
+- **Datasets** – Raw ERP and CRM CSV files
+- **SQL Server Express** – Lightweight RDBMS
+- **SQL Server Management Studio (SSMS)** – SQL GUI
+- **Git & GitHub** – Version control and collaboration
+- **Draw.io** – Data architecture and flow diagrams
+- **Notion** – Project management and documentation
+
+---
+
 ## 🚀 Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
-### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+### 1. Data Engineering (Building the Data Warehouse)
 
-### Specifications
-1. Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-2. Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-3. Scope: Focus on the latest dataset only; historization of data is not required.
-4. Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+**Objective**:  
+Develop a data warehouse in SQL Server to consolidate ERP and CRM data.
 
-### BI: Analytics & Reporting (Data Analysis)
+**Specifications**:
+- Source: CSV files (ERP & CRM)
+- Cleansing: Handle missing, inconsistent, or duplicate data
+- Integration: Unified data model
+- Scope: Latest data only (no historical storage)
+- Documentation: Clear metadata and data model
 
-### Objective
-Develop SQL-based analytics to deliver detailed insights into:
+---
 
-1. Customer Behavior
-2. Product Performance
-3. Sales Trends
+### 2. Data Analysis (BI & Reporting)
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+**Objective**:  
+Develop SQL queries and reports to uncover:
 
-For more details, refer to docs/requirements.md.
+- Customer behavior
+- Product performance
+- Sales trends
 
-### 🛡️ License
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
-### 🌟 About Me
-Hi there! I'm Pushkar Ganta. I’m an IT professional.
+📄 For more details, refer to [`docs/requirements.md`](docs/requirements.md)
 
-Let's stay in touch! Feel free to connect with me on the following platforms:
-LinkedIn 
+---
+
+## 📂 Repository Structure
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+## ☕ Stay Connected
+
+> Want to connect, collaborate, or follow my work?
+
+- **LinkedIn**: [www.linkedin.com/in/pushkarganta]
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and share it with attribution.
+
+---
+## 🌟 About Me
+
+Hi, I'm Pushkar! I'm an IT professional passionate about sharing knowledge and making data work simple, fun, and meaningful.
+-----

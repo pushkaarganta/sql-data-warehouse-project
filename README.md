@@ -95,6 +95,7 @@ Develop SQL queries and reports to uncover:
 ---
 
 ## 📂 Repository Structure
+'''
 data-warehouse-project/
 │
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
@@ -118,6 +119,7 @@ data-warehouse-project/
 ├── LICENSE # License information for the repository
 ├── .gitignore # Git ignore rules
 └── requirements.txt # Project dependencies
+'''
 ## ☕ Stay Connected
 
 > Want to connect, collaborate, or follow my work?
@@ -133,5 +135,5 @@ You are free to use, modify, and share it with attribution.
 ---
 ## 🌟 About Me
 
-Hi, I'm Pushkar! I'm an IT professional passionate about sharing knowledge and making data work simple, fun, and meaningful.
+**Hi, I'm Pushkar! I'm an IT professional passionate about sharing knowledge and making data work simple, fun, and meaningful.**
 -----
